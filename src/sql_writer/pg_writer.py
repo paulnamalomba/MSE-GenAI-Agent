@@ -1,7 +1,6 @@
 from __future__ import annotations
 from dataclasses import dataclass
-import os
-import psycopg2
+import psycopg
 
 @dataclass
 class FileMeta:
@@ -15,8 +14,7 @@ def upsert_file_meta(conn_str: str, items: list[FileMeta]):
     if not conn_str:
         print("No POSTGRES_DSN provided; skipping DB write.")
         return
-    conn = psycopg2.connect(conn_str)
-    try:
+    with psycopg.connect(conn_str) as conn:
         with conn.cursor() as cur:
             cur.execute(
                 """
@@ -41,5 +39,3 @@ def upsert_file_meta(conn_str: str, items: list[FileMeta]):
                     (it.company, it.label, it.url, it.path),
                 )
         conn.commit()
-    finally:
-        conn.close()

@@ -1,7 +1,5 @@
 # PostgreSQL Database Setup and Hosting Guide
 
----
-
 ## Understanding PostgreSQL vs Microsoft SQL Server
 
 - PostgreSQL (Postgres) and Microsoft SQL Server (MSSQL) are different systems.

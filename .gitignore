@@ -1,0 +1,8 @@
+# debugging stuff
+.vscode/
+.idea/
+*.log
+*.err
+*.traceback
+mse_httpstats.txt
+mse_serverside.txt
