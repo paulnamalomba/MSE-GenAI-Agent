@@ -1,13 +1,18 @@
 # MSE AI Agent
 
-**Updated**: November 18, 2025<br>
-**Author**: Paul Namalomba<br>
+**Last updated**: December 04, 2025<br>
+**Author**: [Paul Namalomba](https://github.com/paulnamalomba)<br>
   - SESKA Computational Engineer<br>
   - Software Developer<br>
   - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
-**Contact**: [kabwenzenamalomba@gmail.com](mailto:kabwenzenamalomba@gmail.com)
+**Version**: v0.1.1 (Dec 2025)<br>
+**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)
 
----
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-green.svg)](https://pandas.pydata.org/)
+[![Google Gemini 3](https://img.shields.io/badge/GENAI-Gemini%203%20Flash-orange.svg)](https://genai.google/)
+[![BeautifulSoup4](https://img.shields.io/badge/BeautifulSoup4-4.9%2B-yellow.svg)](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Automated scraping and analysis pipeline for Malawi Stock Exchange financial documents from `mse.co.mw`. It is an AI-powered agent that extracts financial data from PDFs, analyzes CEO statements, and provides structured data outputs for investor insights.
 
