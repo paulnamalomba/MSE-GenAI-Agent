@@ -10,7 +10,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-green.svg)](https://pandas.pydata.org/)
-[![Google Gemini 3](https://img.shields.io/badge/Google-Gemini%203%Pro-orange.svg)](https://ai.google.dev/gemini-api/docs)
+[![Google Gemini 3](https://img.shields.io/badge/Google-Gemini%203%20Pro-orange.svg)](https://ai.google.dev/gemini-api/docs)
 [![BeautifulSoup4](https://img.shields.io/badge/BeautifulSoup4-4.9%2B-yellow.svg)](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-gray.svg)](https://opensource.org/licenses/MIT)
 
